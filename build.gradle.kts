@@ -1,5 +1,5 @@
 plugins {
-    id("fabric-loom") version project.property("loom_version")
+    id("fabric-loom") version project.property("loom_version").toString()
 }
 
 base {
