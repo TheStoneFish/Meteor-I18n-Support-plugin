@@ -26,7 +26,7 @@ dependencies {
     modImplementation("net.fabricmc:fabric-loader:${properties["loader_version"] as String}")
 
     // https://mvnrepository.com/artifact/meteordevelopment/meteor-client
-    implementation("meteordevelopment:meteor-client:0.5.7")
+    implementation("meteordevelopment:meteor-client:0.5.6")
 }
 
 tasks {
